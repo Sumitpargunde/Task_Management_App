@@ -1,0 +1,34 @@
+/* App.css */
+.sumit {
+  font-family: Arial, sans-serif;
+  background-image: url("../src/assets/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* App.css */
+.center-container {
+  display: flex;
+  justify-content: center;
+  /* Centers horizontally */
+  align-items: center;
+  /* Centers vertically */
+  background-color: #f0f4f8;
+  /* Optional background for visibility */
+}
+
+.add-task-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-task-button:hover {
+  background-color: #0056b3;
+}
